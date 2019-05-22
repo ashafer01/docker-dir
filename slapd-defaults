@@ -1,0 +1,8 @@
+SLAPD_CONF=
+SLAPD_USER="openldap"
+SLAPD_GROUP="openldap"
+SLAPD_PIDFILE=
+SLAPD_SERVICES="ldap:/// ldapi:///"
+SLAPD_SENTINEL_FILE=/etc/ldap/noslapd
+export KRB5_KTNAME=/etc/ldap/ldap.keytab
+SLAPD_OPTIONS=""

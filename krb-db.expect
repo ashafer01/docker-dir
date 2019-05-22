@@ -1,0 +1,7 @@
+#!/usr/bin/expect -f
+spawn krb5_newrealm
+expect "Enter KDC database master key: "
+send -- "password\r"
+expect "Re-enter KDC database master key to verify: "
+send -- "password\r"
+expect eof
